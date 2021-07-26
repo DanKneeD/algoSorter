@@ -1,0 +1,57 @@
+html{
+    background-color: paleturquoise;
+}
+header{
+    
+    font-size: 140px;
+    text-align: center;
+    color: rgba(231, 238, 238, 0.842);
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    text-shadow: -6px 6px 0 peachpuff,
+	2px 2px 0 peachpuff,
+	2px -2px 0 peachpuff,
+	-2px -2px 0 peachpuff;
+}
+
+#HomeClock{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(204, 45, 45);
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+div.clock-container{
+   
+    padding: 20px;
+}
+
+div.Cities{
+    width: 14%;
+    float: left;
+    padding: 20px;
+    border: 3px solid rgb(41, 39, 39);
+    background-color:cadetblue;
+    font-size: 60px;
+    text-align: center;
+}
+
+a.FooterButton{
+    
+    border: none;
+    
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 100px;
+    margin: 0px 10px;
+    margin-top: 8px;
+    transition: background-color 0.7s;
+}
+a.FooterButton:hover{
+    transition: background-color 0.7s;
+    background-color: rgb(93, 91, 87);
+    
+}

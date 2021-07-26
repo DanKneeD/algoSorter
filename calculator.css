@@ -1,0 +1,119 @@
+body{
+    background-color: gray;
+}
+div{
+   
+}
+div.Calculator{
+    border: 10px solid rgb(224, 73, 73);
+    width: 30%;
+    background-color: blanchedalmond;
+    margin-left: 35%;
+    margin-top: 7%;
+    height: auto;
+    border-radius: 15px;
+    float: left;
+}
+
+div.Display{
+    font-size: 410%;
+margin: 3%;
+height: 70px;
+border: 5px solid rgb(41, 39, 39);
+text-align: right;
+background-color:floralwhite;
+}
+
+div.LeftPanel{
+    width: 76%;
+    display: inline-block;
+    
+    
+}
+div.LeftPanel >div{
+    margin: 20px auto 10px auto;
+    margin-left: .5%;
+}
+
+div.LeftPanel >div>div{
+    
+    border-radius: 5px;
+    width: 26.5%;
+    height:5%;  
+    text-align: center;
+    font-size: auto;
+    padding: 10px;
+    border: 1px solid #bbb;
+    margin-left: .5%;
+    cursor: pointer;
+    background-color: #ddd;
+    
+    display: inline-block;
+
+    font-size: 3.6vh;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;  
+}
+div.Equals{
+    border-radius: 5px;
+   
+    
+    text-align: center;
+    font-size: auto;
+    padding: 10px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    background-color:cornflowerblue;
+    height: 350px;
+    float: right;
+    text-align: middle;
+    font-size: 40px;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;  
+    width: 19%;
+    font-size: 50px;
+    line-height: 320px;
+    height: 320px;
+    border: 1px solid #bbb;
+}
+
+div.Operations{
+    display: flex;
+
+   
+}
+
+.Operations div{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 20%;
+    height:5%;  
+    text-align: center;
+    font-size: auto;
+    padding: 10px;
+    margin: 20px auto 10px auto;
+    cursor: pointer;
+    background-color: rgb(177, 177, 177);
+  
+    font-size: 3.6vh;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;   
+}
+a.FooterButton{
+    
+    border: none;
+    
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 100px;
+    margin: 0px 10px;
+    margin-top: 8px;
+    transition: background-color 0.7s;
+}
+a.FooterButton:hover{
+    transition: background-color 0.7s;
+    background-color: rgb(93, 91, 87);
+    
+}
